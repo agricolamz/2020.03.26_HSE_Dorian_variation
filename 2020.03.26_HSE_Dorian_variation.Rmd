@@ -13,6 +13,7 @@ output:
     df_print: kable
     latex_engine: xelatex
     citation_package: natbib
+    keep_tex: false
     includes:
       in_header: "config/presento.sty"
 bibliography: bibliography.bib
@@ -22,16 +23,91 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dev='cairo_pdf')
-library(qrcode)
-png(filename="images/00_qrcode.png", width = 200, height = 200)
-qrcode_gen("https://github.com/agricolamz/2020.03.26_HSE_Dorian_variation/raw/master/2020.03.26_HSE_Dorian_variation.pdf")
-dev.off()
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+# library(qrcode)
+# png(filename="images/00_qrcode.png", width = 200, height = 200)
+# qrcode_gen("https://github.com/agricolamz/2020.03.26_HSE_Dorian_variation/raw/master/2020.03.26_HSE_Dorian_variation.pdf")
+# dev.off()
 ```
 
-# \color{colorwhite} Introduction
+# \color{colorwhite} Nancy Currier Dorian
 
-## Investigating variation:
-asd
+## Nancy Currier Dorian (1936)
+
+* 1958 B.A. --- Connecticut College for Women (the major field: German)
+* 1961 M.A. --- University of Michigan (Linguistics)
+* 1965 Ph.D. --- University of Michigan (Linguistics)
+* Employment: Bryn Mawr College, University of Pennsylvania, University of Kiel. Now she is a Professor Emeritus of Linguistics in German & Anthropology Bryn Mawr College
+* She has several awards for her Gaelic studies
+* She wrote 6 books (we are reading the fifth) and about 70 articles
+* Fieldwork
+    * Gaelic (1965 2 m.; 1967 3 m.; 1968 4 m.; 1972 1 m.)
+    * German, Berks County Pennsylvania (1976--83)
+    * Disability status precluded on-site fieldwork after 1983. Fieldwork with East Sutherland Gaelic resumed, by tape recording and long-distance telephone, in 1990, and with Berks County Pennsylvania German, by long-distance telephone, in 1994.
+
+# \color{colorwhite} Investigating variation: The effects of social organization and social setting by N. C. Dorian (2010)
+  
+## Languages of the UK
+\centering
+\vspace{-2.5mm}
+\includegraphics[width=\linewidth]{images/01_gb_languages.png}
+
+## East Sutherland Gaelic
+
+This book is about **East Sutherland fisherfolk Gaelic**, a cluster of dialects that came into being in the early years of the XIX century. Now this dialect is present in fishing villages on the eastern coast of [Sutherland](https://en.wikipedia.org/wiki/Sutherland), especially in Brora, Golspie, and Embo.
+
+```{r, fig.height=3.5}
+library(tidyverse)
+library(sf)
+gb <- read_sf("data/gb/")
+
+gb %>%
+  mutate(my_coloring = ifelse(name == "Scotland", TRUE, FALSE)) %>% 
+  ggplot(aes(fill = my_coloring, color = my_coloring))+
+  geom_sf(show.legend = FALSE)+
+  scale_fill_manual(values = c("gray", "darkgreen"))+
+  scale_color_manual(values = c("gray20", "darkgreen"))+
+  annotate(geom = "rect", xmin = -6, xmax = -3, ymin = 57.6, ymax = 58.7, alpha = 0.1, color = "red")+
+  #scale_color_manual(values = "darkgreen")+
+  theme(panel.grid.major = element_line(color = gray(.5), 
+                                                linetype = "dashed", 
+                                                size = 0.3),
+                panel.background = element_rect(fill = "aliceblue"))+
+  labs(x = "", y = "") ->
+  p1
+
+tibble(place = c("Brora", "Golspie", "Embo"),
+       lat = c(-3.85, -3.9771 , -3.98),
+       lng = c(58.01, 57.973,57.9)) ->
+  villages
+
+gb %>% 
+  filter(name == "Scotland") %>% 
+  ggplot()+
+  geom_sf() + 
+  annotate(geom = "point", x = villages$lat, y = villages$lng, color = "red")+
+  annotate(geom = "text", x = villages$lat+0.05, y = villages$lng, label = villages$place, hjust = 0)+
+  coord_sf(xlim = c(-6, -3), ylim = c(57.6, 58.7))+
+  theme(panel.grid.major = element_line(color = gray(.5), 
+                                                linetype = "dashed", 
+                                                size = 0.3),
+                panel.background = element_rect(fill = "aliceblue"))+
+  labs(x = "", y = "") ->
+  p2
+
+gridExtra::grid.arrange(p1, p2, nrow = 1)
+```
+
+## Scottish Gaelic and Scots according the 2011 census
+
+* Scottish Gaelic (Celtic, [scot1245](https://glottolog.org/resource/languoid/id/scot1245)), [Highland English](https://en.wikipedia.org/wiki/Highland_English)
+* Standard English, 
+* Scots (Germanic, [scot1243](http://glottolog.org/resource/languoid/id/scot1243)), [Scottish dialect of English](https://en.wikipedia.org/wiki/Scottish_English)
+
+\vspace{6.5cm}
+\includegraphics[scale = 4.5]{images/02_scottish_gaelic_and_scots.png}
+
+
+# \color{colorwhite} Chapter 2. The East Sutherland Fishing Communities
 
 # References {.allowframebreaks}
