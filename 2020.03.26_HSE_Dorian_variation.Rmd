@@ -118,5 +118,12 @@ gridExtra::grid.arrange(p1, p2, nrow = 1)
 * 1124–-1153 --- during the reign of **King David I** there are several changes took place including Normanization of the Scottish government, and the introduction of feudalism through immigrant Norman and Anglo-Norman knights. The Normans who came to England adopted the [Gregorian Reforms](https://en.wikipedia.org/wiki/Gregorian_Reform), and soon began attacking the Scottish and Irish Gaelic world as spiritually backward.
 * 1707 --- **Acts of Union**. After a long period of political instability in Scotland the Scottish Parliament and the English Parliament united to form the Parliament of Great Britain.
 
+## Highland Clearances or the eviction of the Gaels
+
+* Since their origin in the early Middle Ages, clans were the major social unit of the Highlands.
+* The aristocratic House of Sutherland was in any case not indigenous but was the creation of early Norman power in Scotland. Extensive lands in what we now know as Sutherland were granted in the first half of the 12 century to a family closely associated with newly established Norman power.
+* Always oriented to the south, the earls of Sutherland took wives almost exclusively from outside the Gaelic aristocracy and were frequently absent from the north for extended periods (in Edinburgh, after 1707 in London)
+* **Highland Clearances** is the process of consolidating small landholdings into large-scale pastoral farms stocked with sheep that was started from 1760. The Gaels were displaced to the newly created crofting communities, where they were expected to be employed in industries such as fishing, quarrying or the kelp industry. This also caused a huge emigration (e. g. to Canada).
+
 
 # References {.allowframebreaks}
