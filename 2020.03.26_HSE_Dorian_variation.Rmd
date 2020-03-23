@@ -110,4 +110,13 @@ gridExtra::grid.arrange(p1, p2, nrow = 1)
 
 # \color{colorwhite} Chapter 2. The East Sutherland Fishing Communities
 
+## Short history of Scotland (and England)
+
+* 5th--7th centuries --- The Pictish and Scottish kingdoms were largely converted to Christianity by Irish-Scots missions (see [Celtic Christianity](https://en.wikipedia.org/wiki/Celtic_Christianity)).
+* 843 -- foundation of **The Kingdom of Scotland** by Kenneth MacAlpin: merge of The Pictish and Scottish kingdoms.
+* 1066 --- **Malcolm III** granted asylum to many Anglo-Saxons, who emigrated after the Norman conquest of England.
+* 1124–-1153 --- during the reign of **King David I** there are several changes took place including Normanization of the Scottish government, and the introduction of feudalism through immigrant Norman and Anglo-Norman knights. The Normans who came to England adopted the [Gregorian Reforms](https://en.wikipedia.org/wiki/Gregorian_Reform), and soon began attacking the Scottish and Irish Gaelic world as spiritually backward.
+* 1707 --- **Acts of Union**. After a long period of political instability in Scotland the Scottish Parliament and the English Parliament united to form the Parliament of Great Britain.
+
+
 # References {.allowframebreaks}
