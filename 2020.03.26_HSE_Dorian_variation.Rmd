@@ -28,6 +28,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 # png(filename="images/00_qrcode.png", width = 200, height = 200)
 # qrcode_gen("https://github.com/agricolamz/2020.03.26_HSE_Dorian_variation/raw/master/2020.03.26_HSE_Dorian_variation.pdf")
 # dev.off()
+library(tidyverse)
 ```
 
 # \color{colorwhite} Nancy Currier Dorian
@@ -57,7 +58,6 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 This book is about **East Sutherland fisherfolk Gaelic**, a cluster of dialects that came into being in the early years of the XIX century. Now this dialect is present in fishing villages on the eastern coast of [Sutherland](https://en.wikipedia.org/wiki/Sutherland), especially in Brora, Golspie, and Embo.
 
 ```{r, fig.height=3.5, eval = FALSE}
-library(tidyverse)
 library(sf)
 gb <- read_sf("data/gb/")
 
@@ -153,5 +153,23 @@ gridExtra::grid.arrange(p1, p2, nrow = 1)
     * **herring** unpredictability go wherever their own preferred food sources, but in most cases moved along the coasts from the norh to south.
     * **men** collectively bought larger boat and acquired secondhand from Scots-speaking fishermen; after the World War I British herring fishing boats were increaingly powered by steam and became expensive, so they signed on, usually singly, as hired hands with fishermen who speak Scots. Fishermen follow herring.
     * **adult women and girls** were hired out as herring gutters and packers and also migrated following herring.
+
+# \color{colorwhite} Chapter 3. Dimensions of Linguistics Variation in a Socioeconomically Homogeneous Population
+
+## Who N. Dorian worked with?
+
+## Geographically based variation
+
+# \color{colorwhite} Chapter 4. A General Introduction to Speakers and Variables
+
+# \color{colorwhite} Chapter 5 A Close Look at Some Embo Variables and their Use
+
+# \color{colorwhite} Chapter 6 Kin Groups, Peer Groups, and Variation
+
+# \color{colorwhite} Chapter 7 Speech Norms, Accommodation, and Speaking Well in Gaelic Embo
+
+# \color{colorwhite} Chapter 8 Socially Neutral Linguistic Variation: Where, Why, What For, and How?
+
+# \color{colorwhite} Chapter 9 Conclusion
 
 # References {.allowframebreaks}
