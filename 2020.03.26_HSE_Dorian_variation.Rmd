@@ -138,7 +138,7 @@ gridExtra::grid.arrange(p1, p2, nrow = 1)
     * therefore poor
     * therefore in a low social standing
     * therefore strong endogamy (until the end of the World War I)
-    * segregated in Church (service in English and Gaelic)
+    * segregated in Church (service in English and Gaelic) and in school
 
 ## Fishing as a way of life in East Sutherland
 
