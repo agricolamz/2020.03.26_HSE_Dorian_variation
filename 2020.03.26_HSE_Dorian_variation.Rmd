@@ -56,7 +56,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 This book is about **East Sutherland fisherfolk Gaelic**, a cluster of dialects that came into being in the early years of the XIX century. Now this dialect is present in fishing villages on the eastern coast of [Sutherland](https://en.wikipedia.org/wiki/Sutherland), especially in Brora, Golspie, and Embo.
 
-```{r, fig.height=3.5}
+```{r, fig.height=3.5, cache=TRUE}
 library(tidyverse)
 library(sf)
 gb <- read_sf("data/gb/")
@@ -124,6 +124,11 @@ gridExtra::grid.arrange(p1, p2, nrow = 1)
 * The aristocratic House of Sutherland was in any case not indigenous but was the creation of early Norman power in Scotland. Extensive lands in what we now know as Sutherland were granted in the first half of the 12 century to a family closely associated with newly established Norman power.
 * Always oriented to the south, the earls of Sutherland took wives almost exclusively from outside the Gaelic aristocracy and were frequently absent from the north for extended periods (in Edinburgh, after 1707 in London)
 * **Highland Clearances** is the process of consolidating small landholdings into large-scale pastoral farms stocked with sheep that was started from 1760. The Gaels were displaced to the newly created crofting communities, where they were expected to be employed in industries such as fishing, quarrying or the kelp industry. This also caused a huge emigration (e. g. to Canada).
+
+## Highland Clearances or the eviction of the Gaels
+
+* Before the Highland Clearances nearly all people of eastern Sutherland-shire birth were mother-tongue speakers of Gaelic, most of them also Gaelic monolinguals. Functionaries connected with the House of Sutherland might be, like the aristocratic family itself, English monolinguals, and the clergy were by necessity bilinguals.
+* Cattle had been the dominant animal in Highland, and Highlanders at this period had relatively little experience with sheep. Lowland farmers taking up the new sheep farms created by the evictions therefore brought their own English shepherds with them.
 
 
 # References {.allowframebreaks}
