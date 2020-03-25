@@ -131,6 +131,27 @@ gridExtra::grid.arrange(p1, p2, nrow = 1)
 
 * Before the Highland Clearances nearly all people of eastern Sutherland-shire birth were mother-tongue speakers of Gaelic, most of them also Gaelic monolinguals. Functionaries connected with the House of Sutherland might be, like the aristocratic family itself, English monolinguals, and the clergy were by necessity bilinguals.
 * Cattle had been the dominant animal in Highland, and Highlanders at this period had relatively little experience with sheep. Lowland farmers taking up the new sheep farms created by the evictions therefore brought their own English shepherds with them.
+* As a result Gaelic population became:
+    * separated from each other
+    * settled on the small land near the coast (or emigrated)
+    * therefore forced to fishery
+    * therefore poor
+    * therefore in a low social standing
+    * therefore strong endogamy (until the end of the World War I)
+    * segregated in Church (service in English and Gaelic)
 
+## Fishing as a way of life in East Sutherland
+
+* Line fishing
+    * **men** fish, pack and transport fish to the railhead
+    * **women** smoke white fish, sell fresh and smoked fish directly to housewives and to the hotels
+    * **children** help with bait gathering, collect bentgrass from the shore, collect pinecones for fish smoking, collect water from the nearest pump
+    * **older girls** take care of their younger siblings
+    * **older boys** were responsible for the animals \pause
+
+* Herring fishing
+    * **herring** unpredictability go wherever their own preferred food sources, but in most cases moved along the coasts from the norh to south.
+    * **men** collectively bought larger boat and acquired secondhand from Scots-speaking fishermen; after the World War I British herring fishing boats were increaingly powered by steam and became expensive, so they signed on, usually singly, as hired hands with fishermen who speak Scots. Fishermen follow herring.
+    * **adult women and girls** were hired out as herring gutters and packers and also migrated following herring.
 
 # References {.allowframebreaks}
