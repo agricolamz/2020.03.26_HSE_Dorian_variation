@@ -46,7 +46,7 @@ library(tidyverse)
     * German, Berks County Pennsylvania (1976--83)
     * Disability status precluded on-site fieldwork after 1983. Fieldwork with East Sutherland Gaelic resumed, by tape recording and long-distance telephone, in 1990, and with Berks County Pennsylvania German, by long-distance telephone, in 1994.
 
-# \color{colorwhite} Investigating variation: The effects of social organization and social setting by N. C. Dorian (2010)
+# \color{colorwhite} Investigating variation: The effects of social organization and social setting \pause We will discuss only chapters 2--5
   
 ## Languages of the UK
 \centering
@@ -103,7 +103,7 @@ gridExtra::grid.arrange(p1, p2, nrow = 1)
 ## Scottish Gaelic and Scots according the 2011 census
 
 * Scottish Gaelic (Celtic, [scot1245](https://glottolog.org/resource/languoid/id/scot1245)), [Highland English](https://en.wikipedia.org/wiki/Highland_English)
-* Standard English, 
+* Standard English
 * Scots (Germanic, [scot1243](http://glottolog.org/resource/languoid/id/scot1243)), [Scottish dialect of English](https://en.wikipedia.org/wiki/Scottish_English)
 
 \vspace{6.5cm}
@@ -154,22 +154,40 @@ gridExtra::grid.arrange(p1, p2, nrow = 1)
     * **men** collectively bought larger boat and acquired secondhand from Scots-speaking fishermen; after the World War I British herring fishing boats were increaingly powered by steam and became expensive, so they signed on, usually singly, as hired hands with fishermen who speak Scots. Fishermen follow herring.
     * **adult women and girls** were hired out as herring gutters and packers and also migrated following herring.
 
+## Who did Nancy Dorian work with?
+
+Despite the fisherfolk had formed a separate group in each village and contacted with each other, their Gaelic was not uniform. It is impossible to know, how uniform the Gaelic spoken in the fishing communities was at the time of their resettlement. It is possible to conclude something from 1851 census and modern [clan names](https://en.wikipedia.org/wiki/Scottish_clan).
+
+\centering
+![](images/04_clans.png)
+
+## Who did Nancy Dorian work with?
+
+* Gaelic speakers constituted just 3.6% of Brora’s population (43), 4.6% of Golspie's population (54), 38% of Embo population
+* By 1963, when N. Dorian start her research, no one from the Gaelic-speaking fishing communities still fished full-time for his livelihood, and in Brora and Golspie a scattering of people who had grown up in Lower Brora or the West End now lived in other parts of the villages.
+* Most of the older speakers had been involved in the herring fishery in their young days, and only the youngest imperfect speakers in Brora and Embo had no direct experience the local line fishing.
+* The equation between speaking the local Gaelic and being of fisherfolk descent still
+held, but number of exogamic marriages was growing.
+* Many speakers included an effort to reduce the number of obvious English loanwords. All speakers had some familiarity with more mainstream varieties of Gaelic via sermons, broadcasts, work experience in the fishing industry, and occasional interaction with non-local speakers settled in East Sutherland.
+
 # \color{colorwhite} Chapter 3. Dimensions of Linguistics Variation in a Socioeconomically Homogeneous Population
 
-## Who N. Dorian worked with?
+## Different types of variation
 
-## Geographically based variation
+* Geographically Based Variation (table 3.1 p. 68, in .pdf 91)
+* Age-Related Variation (table 3.2 p. 71, in .pdf 94)
+* Style-Related Variation
+
+'when' is different during the performance of proverbs and rhymes
+
+* There is **no Gender-Related Variation**:
+
+> As a result, lack of enough material (most especially freely spoken material) from older Embo women makes it difficult in some cases to rule out gender as a factor in variant choice, though other cases in which gender is clearly not a signifi cant factor at least make it evident that gender is not routinely important to variant choice.
+
+* Personally Patterned Variation
 
 # \color{colorwhite} Chapter 4. A General Introduction to Speakers and Variables
 
 # \color{colorwhite} Chapter 5 A Close Look at Some Embo Variables and their Use
-
-# \color{colorwhite} Chapter 6 Kin Groups, Peer Groups, and Variation
-
-# \color{colorwhite} Chapter 7 Speech Norms, Accommodation, and Speaking Well in Gaelic Embo
-
-# \color{colorwhite} Chapter 8 Socially Neutral Linguistic Variation: Where, Why, What For, and How?
-
-# \color{colorwhite} Chapter 9 Conclusion
 
 # References {.allowframebreaks}
