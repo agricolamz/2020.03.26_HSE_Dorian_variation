@@ -190,8 +190,16 @@ held, but number of exogamic marriages was growing.
 
 > Despite a small-family background, a small difference in age, a thoroughly local life pattern, and long-continued use of Gaelic between them, the two showed what seemed to me a remarkable set of differences in their Gaelic usage.
 
-# \color{colorwhite} Chapter 4. A General Introduction to Speakers and Variables
+# \color{colorwhite} Personal story
 
-# \color{colorwhite} Chapter 5 A Close Look at Some Embo Variables and their Use
+## 
+
+|               | every Wednesday       | something acc          | more beautiful | cottage cheese  | rain    |
+|---------------|-----------------------|------------------------|----------------|-----------------|---------|
+| dict., stand. | по сре́дам             | что-то, чего-то        | краси́вее       | тво́рог, творо́г  | до[шть] |
+| family        | по среда́м             | что-то, чего-то        | красиве́е       | творо́г          | до[щ]   |
+| generation    | по среда́м > по сре́дам | чё-то, что-то, чего-то | краси́вее       | тво́рог > творо́г | до[шть] |
+| colleagues    | по среда́м, по сре́дам  | чё-то, что-то, чего-то | краси́вее       | тво́рог > творо́г | до[шть] |
+| me            | по сре́дам             | чё-то, что-то, чего-то | краси́вее       | творо́г          | до[щ]   |
 
 # References {.allowframebreaks}
